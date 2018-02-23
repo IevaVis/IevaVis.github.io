@@ -1,0 +1,72 @@
+body {
+  font-family: Arial;
+  line-height: 1.4em;
+}
+
+
+body {
+	background-image: url("images/gallery/dust_scratches.png");
+	font-family: 'Mukta Malar', sans-serif;
+}
+
+
+header {
+	text-align: justify;
+	position: relative;
+}
+
+p {
+   color: grey;
+   font-size: 20px
+}
+
+
+h1, h2, h3, h4 {
+
+	text-decoration: underline;
+}
+
+
+.rounded {
+	border-radius: 15px 50px 30px 5px;
+}
+
+header img {
+	border-radius: 15px 50px;
+	width: 400px;
+	height:400px;
+}
+
+
+table, th, td {
+	border: 1px solid #999;
+	border-collapse: collapse;
+	padding: 15px;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
