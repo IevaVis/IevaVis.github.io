@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<head>
+
+	<meta charset = 'UTF-8'/>
+
+	<link rel="stylesheet" href="stylegallery.css"/>
+
+
+	<title>Dynamic Image Gallery</title>
+
+</head>
+<body>
+
+		<h1>Interactive Image Gallery</h1>
+
+<!-- Gallery -->
+
+<ul class = "Gallery">
+
+	<li class = "gallery-item">
+		<img id="1" src="../../images/gallery/Room.jpg" />
+		<p class = "caption" >Green room</p>
+	</li>
+
+	<li class = "gallery-item">
+		<img id="2" src="../../images/gallery/heart.png" />
+		<p class = "caption">Big Red Heart</p>
+	</li>
+
+	<li class = "gallery-item">
+		<img id="3" src="../../images/gallery/Plant.png" />
+		<p class = "caption">A plant</p>
+	</li>
+</ul>
+<!-- Lightbox -->
+
+	<div class = "lightbox hidden">
+
+		<div class = "lightbox-content">
+		<div class = "lightbox-controls">
+		<a href="#" class="lightbox-close">Close</a>
+		<a href="#" class="lightbox-prev">Previous</a>
+		<a href="#" class="lightbox-next">Next</a>
+		</div>
+
+	<div class = "lightbox-image">
+<!-- 		<img src="../../images/gallery/Room.jpg" />
+		<p class = "caption" >Some building somewhere</p> -->
+		</div>
+	</div>
+</div>
+
+	<script src ="./gallery.js"></script>
+
+
+		</body>
+	</html>
