@@ -1,0 +1,77 @@
+
+* { 
+font-family: 'Shadows Into Light', cursive;
+
+}
+
+body {
+	background-image: url("coding.jpg");
+}
+
+.jumbotron {
+	height: 230px;
+}
+
+.container {
+	position:relative;
+}
+
+.next-logo {
+	position:absolute;
+	width: 400px;
+	right: 260px;
+	bottom: -30px;
+}
+
+
+.btn-primary {
+
+	margin: 3px;
+
+}
+
+.btn-primary:hover {
+	background-color:gray;
+	transform: skew(15deg);
+}
+
+
+.customDiv {
+	min-height:500px;
+	background-color:#edf2f7;
+	text-align:center;
+	font-size:large;
+	border-radius: 10px;
+
+}
+
+.fa-facebook-f {
+  background: #3B5998;
+  color: white;
+
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-linkedin-in {
+  background: #007bb5;
+  color: white;
+}
+
+img {
+	width: 50%;
+
+}
+
+
+
+
+
